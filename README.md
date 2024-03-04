@@ -71,53 +71,70 @@ Contains 2 main files
   - test => execute the tests with three retries upon failure
 
 
-# Test Managment
+# Test Management
+
 
 ## ARGUE TO THE BUSINESS WHY TEST MANAGEMENT & AUTOMATION ARE IMPORTANT
 
-TM is the corner stone of Quality assurance. It answers the questions "HOW, WHY, WHEN and WHAT":
+
+TM is the cornerstone of Quality assurance. It answers the questions "HOW, WHY, WHEN and WHAT":
   - What is automated (Which flows are currently being covered)
   - When do certain flow are tested (Can be an event or time trigger)
-  - Why certain tests are currently being reworked or created (You can contextualize how a certain test scripts needs to be executed)
+  - Why certain tests are currently being reworked or created (You can contextualize how a certain test script needs to be executed)
   - How these tests are being executed (Manual vs Automated, Cost vs Return)
+
 
 ## YOUR CHOSEN TECHNICAL APPROACH
 
-Mix between activity based and revenue based approach: the activity based approach garantees that the most used flows by the users are always working or in the case that they aren't, the dev/eng team is the first to know. Revenue based approach prioritizes the coverage of the flows that currently collect/earn the most money for the company. This garantees that if something impacts the company's revenue we can be ahead of the curve and minimize/remove the risk of losing money
+
+A mix between activity-based and revenue-based approach: the activity-based approach guarantees that the most used flows by the users are always working or in the case that they aren't, the dev/eng team is the first to know. Revenue-based approach prioritizes the coverage of the flows that currently collect/earn the most money for the company. This guarantees that if something impacts the company's revenue we can be ahead of the curve and minimize/remove the risk of losing money
+
 
 ## TECHNOLOGIES YOU WOULD USE TO MANAGE, AUTOMATE, THE INFRASTRUCTURE TO SUPPORT SCALING AND EXECUTION, AND MONITOR/TRACK/REPORT
 
-- Management : XRAY, Zephyr or some Jira Adjacent tool
-- Automate : a dev-used coding language, a browser-automation tool, static image analysis, k6/gatling for non functional tests, lighthouse/in house browser performance tool
+
+- Management : XRAY, Zephyr, or some Jira Adjacent tool
+- Automate : a dev-used coding language, a browser-automation tool, static image analysis, k6/Gatling for non functional tests, lighthouse/in-house browser performance tool
 - Support scalling: CI CD integration, terraform
 - Reporting: Xray, test rails and slack
 
+
 ## TYPES OF TESTING
 
-Funtional test: Front end and back end (for FE, also use data driven and image analysis (result vs baseline))
-Non Funtional: Tradicional load and performance, browser compatibility and performance, accessability and user experience
+
+Functional test: Front end and back end (for FE, also use data-driven and image analysis (result vs baseline))
+Non Functional: Tradicional load and performance, browser compatibility and performance, accessibility and user experience
+
 
 ## TESTING PROCESS AND TESTING FLOW
  ??
 
+
 ## TEAM STRUCTURE
 
-A mix of all levels of expertise but something in a pyramid shape: 1 senior to be my right hand person and someone who can cover when I'm not present, 2 mids that have some learning/growth to do but can do 70% of tasks independently and 3 juniors that grasp that concapt but might not have dwelved in certain aspects of test automation
+
+A mix of all levels of expertise but something in a pyramid shape: 1 senior to be my right-hand person and someone who can cover when I'm not present, 2 mids that have some learning/growth to do but can do 70% of tasks independently and 3 juniors that grasp that concepts but might not have delved in certain aspects of test automation
+
+
 
 
 # DYNAMIC CONTENT CHALLENGES
 
+
 ## WHAT ARE THE TYPICAL PITFALLS IN SUCH A SOLUTION AND HOW DO YOU OVERCOME THEM?
+
 
 - Stale data(inputs) and therefore an imperceptible lag behind reality
 - Flows can become very complex thus leading to higher testing costs
 - States along the testing flow can be tricky to maintain
 
 
+
+
 ## WHAT TOOLS WOULD YOU IDEALLY HAVE ACCESS IN ORDER TO COME UP WITH YOUR SOLUTION, AND WHY?
 
-- Data driven testing (using both input and output data as a reference frame)
-- Visual validation tools (image compairson using image analysis or AI validation)
-- Data/event synchronousness 
-- Low level interaction injection (JS execution)
 
+- Data-driven testing (using both input and output data as a reference frame)
+- Visual validation tools (image comparison using image analysis or AI validation)
+- Data/event synchronousness
+- Low-level interaction injection (JS execution)
