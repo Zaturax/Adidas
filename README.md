@@ -109,15 +109,15 @@ A mix of all levels of expertise but something in a pyramid shape: 1 senior to b
 
 ## WHAT ARE THE TYPICAL PITFALLS IN SUCH A SOLUTION AND HOW DO YOU OVERCOME THEM?
 
-Stale data(inputs) and therefore an imperceptible lag behind reality
-Flows can become very complex thus leading to higher testing costs
-States along the testing flow can be tricky to maintain
+- Stale data(inputs) and therefore an imperceptible lag behind reality
+- Flows can become very complex thus leading to higher testing costs
+- States along the testing flow can be tricky to maintain
 
 
 ## WHAT TOOLS WOULD YOU IDEALLY HAVE ACCESS IN ORDER TO COME UP WITH YOUR SOLUTION, AND WHY?
 
-Data driven testing (using both input and output data as a reference frame)
-Visual validation tools (image compairson using image analysis or AI validation)
-Data/event synchronousness 
-Low level interaction injection (JS execution)
+- Data driven testing (using both input and output data as a reference frame)
+- Visual validation tools (image compairson using image analysis or AI validation)
+- Data/event synchronousness 
+- Low level interaction injection (JS execution)
 
